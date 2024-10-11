@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #daa1a1;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -20,3 +24,16 @@
     gap: 5px;
 
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.sidebar {
+    width: 15%; 
+    background-color: #f0cbcb;
+    padding: 20px;
+    flex: 1;
+}
+
