@@ -11,6 +11,7 @@
 
 body {
     background-color: #daa1a1;
+   
 }
 
 .header {
@@ -21,14 +22,15 @@ body {
 #nav-items {
     display: flex;
     list-style-type: none;
-    gap: 5px;
+    gap: 20px;
+    font-size: 20px;
 
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 93vh;
 }
 .sidebar {
     width: 15%; 
@@ -54,5 +56,14 @@ body {
 
 .sidebar ul li:hover {
     background-color: #ccc;
+}
+
+.footer {
+    background-color: rgb(70, 137, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
 }
 
